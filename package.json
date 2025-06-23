@@ -1,12 +1,30 @@
 {
-  "name": "baileys-haikal",
-  "version": "1.0.0",
-  "description": "Custom Baileys untuk bot WhatsApp grup by Haikal",
+  "name": "@haikalmamonto04/baileys-haikal",
+  "version": "1.1.0",
+  "description": "Custom Baileys untuk bot WhatsApp grup by Haikal - mendukung Pairing Code",
   "main": "index.js",
-  "type": "commonjs",
-  "keywords": ["baileys", "whatsapp", "bot", "custom"],
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [
+    "baileys",
+    "whatsapp",
+    "bot",
+    "custom",
+    "pairing-code",
+    "wa-bot"
+  ],
   "author": "Haikal Saputra Mamonto",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haikalmamonto04/baileys-haikal"
+  },
+  "bugs": {
+    "url": "https://github.com/haikalmamonto04/baileys-haikal/issues"
+  },
+  "homepage": "https://github.com/haikalmamonto04/baileys-haikal#readme",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0"
   }

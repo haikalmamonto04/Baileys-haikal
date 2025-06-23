@@ -1,8 +1,12 @@
-const baileys = require('@whiskeysockets/baileys')
-const buttons = require('./lib/buttons.js') // tambahkan ekstensi biar aman di semua runtime
+// index.js (ESM) - Custom Baileys by Haikal
 
-// Ekspor semua isi Baileys + tombol custom kamu
-module.exports = {
+import * as baileys from '@whiskeysockets/baileys'
+import * as buttons from './lib/buttons.js'
+import { startPairing } from './lib/pairing.js'
+
+// Gabungkan semua export dari baileys + custom
+export default {
   ...baileys,
-  ...buttons
+  ...buttons,
+  startPairing
 }
