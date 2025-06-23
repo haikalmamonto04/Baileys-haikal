@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Custom Baileys untuk bot WhatsApp grup by Haikal",
   "main": "index.js",
+  "type": "commonjs",
   "keywords": ["baileys", "whatsapp", "bot", "custom"],
   "author": "Haikal Saputra Mamonto",
   "license": "MIT",
